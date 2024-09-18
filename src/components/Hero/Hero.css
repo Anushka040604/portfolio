@@ -1,0 +1,114 @@
+/* Hero container */
+.hero {
+    gap: 25px; 
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  /* Profile image */
+  .hero img {
+    width: 240px;
+    height: 240px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-top: 20px;
+  }
+  
+  /* Headline text */
+  .hero h1 {
+    text-align: center;
+    font-size: 80px;
+    font-weight: 600;
+    color: whitesmoke;
+    width: 69%;
+  }
+
+  .hero h1 span{
+    background:linear-gradient(270deg,#DF8908 10%,#b91ee8 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  
+  .hero p {
+    margin-top: 10px;
+    font-size: 20px;
+    width: 50%;
+    text-align: center;
+}
+  
+  /* Action buttons container */
+  .hero-action {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+  }
+  
+  /* Connect button */
+  .hero-connect {
+    padding: 25px 45px;
+    background: linear-gradient(267deg, #DA7C25 0%, #B923E1 100%); 
+    color: white; 
+    border-radius: 50px;
+    cursor: pointer;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+    border: none; /* Remove default border */
+  }
+  
+/* Resume button */
+.hero-resume {
+    padding: 25px 75px;
+    background-color: transparent; 
+    color: white; 
+    border-radius: 50px;
+    cursor: pointer;
+    transition: transform 0.3s ease, background-color 0.3s ease, border 0.3s ease;
+    border: 2px solid white; 
+  }
+  .hero-resume a {
+    text-decoration: none;
+    color: inherit;
+}
+  
+  /* Hover effects for resume button */
+  .hero-resume:hover {
+    transform: scale(1.05); 
+    border: 2px solid #B923E1; 
+  }
+  
+  /* Hover effects */
+  .hero-connect:hover{
+    transform: scale(1.05);
+    border:2px solid white;
+  }
+
+@media(max-width:768px){
+  .hero img{
+    margin-top: 70px;
+    width: 260px;
+  }
+  .hero h1{
+    margin-top: 40px;
+    width: 90%;
+    font-size: 50px;
+  }
+  .hero p{
+    width: 60%;
+    font-size: 15px;
+    line-height: 32px;
+    margin: 10px 0px;
+  }
+  .hero-action{
+    gap: 16px;
+    font-size: 18px;
+    font-weight:500;
+    margin-bottom: 50px;
+  }
+  .hero-resume{
+    padding: 20px 50px;
+    border-radius: 40px;
+  }
+}
+  

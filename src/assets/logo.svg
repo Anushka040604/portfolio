@@ -1,0 +1,15 @@
+<svg width="200" height="80" xmlns="http://www.w3.org/2000/svg">
+  <!-- Gradient definitions -->
+  <defs>
+    <!-- Gradient for text -->
+    <linearGradient id="textGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:white;stop-opacity:1" /> <!-- Top part: white -->
+      <stop offset="100%" style="stop-color:#b91ee8;stop-opacity:1" /> <!-- Bottom part: purple -->
+    </linearGradient>
+  </defs>
+
+  <!-- Stylish Text -->
+  <text x="50%" y="60%" text-anchor="middle" font-family="'Brush Script MT', cursive" font-size="50" fill="url(#textGradient)" font-weight="bold">
+    Anushka
+  </text>
+</svg>
